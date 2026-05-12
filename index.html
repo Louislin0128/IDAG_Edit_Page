@@ -74,9 +74,7 @@
 
 
   <!-- TODO: Replace with your paper title and authors -->
-  <title>PAPER_TITLE - AUTHOR_NAMES | Academic Research</title>
-  
-  <!-- Favicon and App Icons -->
+  <title>IDAG-Edit: Multi-Object Video Editing via Instance-Decoupled Attention and Guidance</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link rel="apple-touch-icon" href="static/images/favicon.ico">
   
@@ -358,7 +356,11 @@
         <div class="content has-text-justified">
           <!-- TODO: Replace with your paper abstract -->
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Diffusion-based video editing has made significant progress; however, achieving precise and temporally consistent object-level control, especially in multi-object scenarios, remains challenging due to attention leakage, identity drift, and unstable temporal dynamics. 
+            In this work, we propose IDAG-Edit, a training-free framework for fine-grained multi-object video editing with strong temporal consistency. 
+            The framework adopts \textit{Layout-guided Attention Modulation} to facilitate coherent multi-object editing, 
+            while \textit{Instance-level Masks} are introduced to preserve individual object identity and enforce localized attention within each object region, thereby enabling fine-grained, object-level editing. 
+            Extensive qualitative and quantitative evaluations demonstrate that our method improves temporal stability and multi-object controllability over state-of-the-art video editing approaches.
           </p>
         </div>
       </div>
@@ -366,6 +368,32 @@
   </div>
 </section>
 <!-- End paper abstract -->
+
+<!-- Paper poster -->
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3" id="Method" align="center">Method</h2>
+          <div class="content has-text-justified">
+          <table width="1200" border="0">
+            <tbody>
+              <img src="static/images/framework.png" alt=""/>
+              <tr>
+                <td colspan="3">
+                  <p>
+                    Overview of the IDAG-Edit pipeline. (a) The framework operates in three stages: DDIM inversion and Reconstruction are first performed to store guidance parameters, followed by an editing phase (DDIM sampling) that preserves source structure while applying modifications. (b) IA-STDG: This guidance steers the denoising trajectory with multi-grained control for precise object-level decoupling. (c) Attention Control: Following~\cite{videodirector}, we apply Self-Attention I ($t < \tau_s$), ID-SA ($t \geq \tau_s$), and LG-CA ($t < \tau_c$). 
+                    Specifically, LG-CA regulates spatial weights, while ID-SA constrains queries to target regions to prevent attribute leakage and ensure feature separation.<br/>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--End paper poster -->
 
 
 <!-- Image carousel -->
