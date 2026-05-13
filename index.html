@@ -179,19 +179,15 @@
   <div class="navbar-menu">
     <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
       <a class="navbar-item" href="https://nycu-acm.github.io/ACM_NYCU_website/">
-      <span class="icon">
+        <span class="icon">
           <i class="fas fa-home"></i>
-      </span>
+        </span>
       </a>
-
+      
       <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          More Research
-        </a>
+        <a class="navbar-link">More Research</a>
         <div class="navbar-dropdown">
-          <a class="navbar-item" href="https://nycu-acm.github.io/ACM_NYCU_website/">
-            NYCU ACM Lab
-          </a>
+          <a class="navbar-item" href="https://nycu-acm.github.io/ACM_NYCU_website/">NYCU ACM Lab</a>
         </div>
       </div>
     </div>
@@ -227,16 +223,13 @@
             </div>
 
             <div class="is-size-5 publication-authors">
-              <!-- TODO: Replace with your institution and conference/journal info -->
               <span class="author-block"><sup>1</sup>Department of Computer Science, National Yang Ming Chiao Tung University Taiwan</span>
               <!-- TODO: Remove this line if no equal contribution -->
               <!-- <span class="eql-cntrb"><small><br><sup>1</sup>Indicates Equal Contribution</small></span> -->
             </div>
-
-            <div class="is-size-3 publication-authors">
+            <div class="is-size-5 publication-authors">
               <span class="author-block">ICIP 2026</span>
             </div>
-
             <div class="logo-row">
               <img src="static/images/logo_nycu.png" alt="NYCU Logo" style="height:100px; width:auto;">
               <img src="static/images/logo_acm.png" alt="ACM Logo" style="height:100px; width:auto;">
@@ -362,146 +355,200 @@
 </section>
 <!--End Methodology -->
 
-<!------------------ BEGIN SECTION ------------------>
-<!-- <section class="section hero is-light">
-  <div class="columns is-centered has-text-centered">
-    <div class="column is-four-fifths">
-      <h2 class="title is-3">Comparison with other video editing methods</h2>
-
-      <table style="table-layout: fixed; width: 100%;" align="center">
-        <thead>
-          <tr>
-            <th style="width: 14%; font-size: 12px; text-align: center;">Source video</th>
-            <th style="width: 14%; font-size: 12px; text-align: center;">Ours</th>
-            <th style="width: 14%; font-size: 12px; text-align: center;">FateZero</th>
-            <th style="width: 14%; font-size: 12px; text-align: center;">ControlVideo</th>
-            <th style="width: 14%; font-size: 12px; text-align: center;">TokenFlow</th>
-            <th style="width: 14%; font-size: 12px; text-align: center;">Ground-A-Video</th>
-            <th style="width: 14%; font-size: 12px; text-align: center;">DMT</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th>
-              <video data-master-id="master11" width="200" src="./supplementary/st-modulator/comparison/boxer-punching/source_video.mp4" autoplay="" loop="" controls="" muted=""> </video>
-            </th>
-            <th>
-              <video data-master-id="master11" width="200" src="./supplementary/st-modulator/comparison/boxer-punching/ours.mp4" autoplay="" loop="" controls="" muted=""> </video>
-            </th>
-            <th>
-              <video data-master-id="master11" width="200" src="./supplementary/st-modulator/comparison/boxer-punching/fatezero.mp4" autoplay="" loop="" controls="" muted=""> </video>
-            </th>
-            <th>
-              <video data-master-id="master11" width="200" src="./supplementary/st-modulator/comparison/boxer-punching/controlvideo.mp4" autoplay="" loop="" controls="" muted=""> </video>
-            </th>
-            <th>
-              <video data-master-id="master11" width="200" src="./supplementary/st-modulator/comparison/boxer-punching/tokenflow.mp4" autoplay="" loop="" controls="" muted=""> </video>
-            </th>
-            <th>
-              <video data-master-id="master11" width="200" src="./supplementary/st-modulator/comparison/boxer-punching/ground_a_video.mp4" autoplay="" loop="" controls="" muted=""> </video>
-            </th>
-            <th>
-              <video data-master-id="master11" width="200" src="./supplementary/st-modulator/comparison/boxer-punching/dmt.mp4" autoplay="" loop="" controls="" muted=""> </video>
-            </th>
-          </tr>
-        </tbody>
-      </table>
-      <th style="font-size: 15px">Part level: "<a style="color: #FFB570; font-family: caveat; font-weight: bold;">Thor</a> in <a style="color: #66B2FF; font-family: caveat; font-weight: bold;">sunglasses</a>,
-        punching <a style="color: #FF3333; font-family: caveat; font-weight: bold;">red boxing gloves</a> in <a style="color: #97D077; font-family: caveat; font-weight: bold;">starry night sky</a>"
-      </th>
-
-      <div style="height: 15px;"></div>
-
-      <table style="table-layout: fixed; width: 100%;" align="center">
-        <thead>
-          <tr>
-            <th style="width: 14%; font-size: 12px; text-align: center;">Source video</th>
-            <th style="width: 14%; font-size: 12px; text-align: center;">Ours</th>
-            <th style="width: 14%; font-size: 12px; text-align: center;">FateZero</th>
-            <th style="width: 14%; font-size: 12px; text-align: center;">ControlVideo</th>
-            <th style="width: 14%; font-size: 12px; text-align: center;">TokenFlow</th>
-            <th style="width: 14%; font-size: 12px; text-align: center;">Ground-A-Video</th>
-            <th style="width: 14%; font-size: 12px; text-align: center;">DMT</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th>
-              <video data-master-id="master12" width="200" src="./supplementary/st-modulator/comparison/bike/source_video.mp4" autoplay="" loop="" controls="" muted=""> </video>
-            </th>
-            <th>
-              <video data-master-id="master12" width="200" src="./supplementary/st-modulator/comparison/bike/ours.mp4" autoplay="" loop="" controls="" muted=""> </video>
-            </th>
-            <th>
-              <video data-master-id="master12" width="200" src="./supplementary/st-modulator/comparison/bike/fatezero.mp4" autoplay="" loop="" controls="" muted=""> </video>
-            </th>
-            <th>
-              <video data-master-id="master12" width="200" src="./supplementary/st-modulator/comparison/bike/controlvideo.mp4" autoplay="" loop="" controls="" muted=""> </video>
-            </th>
-            <th>
-              <video data-master-id="master12" width="200" src="./supplementary/st-modulator/comparison/bike/tokenflow.mp4" autoplay="" loop="" controls="" muted=""> </video>
-            </th>
-            <th>
-              <video data-master-id="master12" width="200" src="./supplementary/st-modulator/comparison/bike/ground_a_video.mp4" autoplay="" loop="" controls="" muted=""> </video>
-            </th>
-            <th>
-              <video data-master-id="master12" width="200" src="./supplementary/st-modulator/comparison/bike/dmt.mp4" autoplay="" loop="" controls="" muted=""> </video>
-            </th>
-          </tr>
-        </tbody>
-      </table>
-      <th style="font-size: 15px">Human Instances: "An <a style="color: #FF3333; font-family: caveat; font-weight: bold;">Iron Man</a> and a <a style="color: #66B2FF; font-family: caveat; font-weight: bold;">monkey</a> 
-        are riding bikes on the <a style="color: #97D077; font-family: caveat; font-weight: bold;">snowy ground</a>  under <a style="color: #FF99CC; font-family: caveat; font-weight: bold;">cherry blossoms</a>"
-      </th>
-
-      <div style="height: 15px;"></div>
-
-      <table style="table-layout: fixed; width: 100%;" align="center">
-        <thead>
-          <tr>
-            <th style="width: 14%; font-size: 12px; text-align: center;">Source video</th>
-            <th style="width: 14%; font-size: 12px; text-align: center;">Ours</th>
-            <th style="width: 14%; font-size: 12px; text-align: center;">FateZero</th>
-            <th style="width: 14%; font-size: 12px; text-align: center;">ControlVideo</th>
-            <th style="width: 14%; font-size: 12px; text-align: center;">TokenFlow</th>
-            <th style="width: 14%; font-size: 12px; text-align: center;">Ground-A-Video</th>
-            <th style="width: 14%; font-size: 12px; text-align: center;">DMT</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th>
-              <video data-master-id="master13" width="200" src="./supplementary/st-modulator/comparison/2cat/source_video.mp4" autoplay="" loop="" controls="" muted=""> </video>
-            </th>
-            <th>
-              <video data-master-id="master13" width="200" src="./supplementary/st-modulator/comparison/2cat/ours.mp4" autoplay="" loop="" controls="" muted=""> </video>
-            </th>
-            <th>
-              <video data-master-id="master13" width="200" src="./supplementary/st-modulator/comparison/2cat/2cat_fatezero.mp4" autoplay="" loop="" controls="" muted=""> </video>
-            </th>
-            <th>
-              <video data-master-id="master13" width="200" src="./supplementary/st-modulator/comparison/2cat/controlvideo.mp4" autoplay="" loop="" controls="" muted=""> </video>
-            </th>
-            <th>
-              <video data-master-id="master13" width="200" src="./supplementary/st-modulator/comparison/2cat/tokenflow.mp4" autoplay="" loop="" controls="" muted=""> </video>
-            </th>
-            <th>
-              <video data-master-id="master13" width="200" src="./supplementary/st-modulator/comparison/2cat/ground_a_video.mp4" autoplay="" loop="" controls="" muted=""> </video>
-            </th>
-            <th>
-              <video data-master-id="master13" width="200" src="./supplementary/st-modulator/comparison/2cat/dmt.mp4" autoplay="" loop="" controls="" muted=""> </video>
-            </th>
-          </tr>
-        </tbody>
-      </table>
-      <th style="font-size: 15px">Animal Instances: "A <a style="color: #FF3333; font-family: caveat; font-weight: bold;">Panda</a> and a <a style="color: #66B2FF; font-family: caveat; font-weight: bold;">toy poodle</a> 
-        are playing toys in <a style="color: #FFB570; font-family: caveat; font-weight: bold;">starry night</a>  on <a style="color: #97D077; font-family: caveat; font-weight: bold;">grassy meadow</a>"
-      </th>
-
+<!-- Video carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3" id="Editing Results" align="center">🎬 IDAG-Edit Editing Results</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <video poster="" id="video1" controls muted loop height="30%" preload="metadata">
+            <source src="./static/videos/carousel1.mp4" type="video/mp4">
+          </video>
+          <h2 class="subtitle has-text-centered">First image description.</h2>
+        </div>
+        <div class="item item-video2">
+          <video poster="" id="video2" controls muted loop height="30%" preload="metadata">
+            <source src="./static/videos/carousel2.mp4" type="video/mp4">
+          </video>
+          <h2 class="subtitle has-text-centered">Second image description.</h2>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video3" controls muted loop height="30%" preload="metadata">
+            <source src="./static/videos/carousel3.mp4" type="video/mp4">
+          </video>
+          <h2 class="subtitle has-text-centered">Third image description.</h2>
+        </div>
+      </div>
     </div>
   </div>
-</section> -->
+</section>
+<!-- End video carousel -->
+                      
 
+ <!-- Qualitative Comparison -->
+<section class="hero is-small is-light">
+  <div class="columns is-centered has-text-centered">
+    <div class="column is-four-fifths" style="padding: 1.25rem 1.5rem 0.5rem 1.5rem;">
+      <h2 class="title is-3">Comparison with SOTA video editing methods</h2>
+
+      <table style="table-layout: fixed; width: 100%;" align="center">
+        <thead>
+          <tr>
+            <th style="width: 14%; font-size: 12px; text-align: center;">Source video</th>
+            <th style="width: 14%; font-size: 12px; text-align: center;">IDAG-Edit (Ours)</th>
+            <th style="width: 14%; font-size: 12px; text-align: center;">TokenFlow</th>
+            <th style="width: 14%; font-size: 12px; text-align: center;">Ground-A-Video</th>
+            <th style="width: 14%; font-size: 12px; text-align: center;">VideoGrain</th>
+            <th style="width: 14%; font-size: 12px; text-align: center;">VideoDirector</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>
+              <video data-master-id="master11" width="200" src="./static/videos/comparison/source/run_2man.mp4" autoplay="" loop="" controls="" muted=""> </video>
+            </th>
+            <th>
+              <video data-master-id="master11" width="200" src="./static/videos/comparison/ours/run_2man.mp4" autoplay="" loop="" controls="" muted=""> </video>
+            </th>
+            <th>
+              <video data-master-id="master11" width="200" src="./static/videos/comparison/tokenflow/run_2man.mp4" autoplay="" loop="" controls="" muted=""> </video>
+            </th>
+            <th>
+              <video data-master-id="master11" width="200" src="./static/videos/comparison/gav/run_2man.mp4" autoplay="" loop="" controls="" muted=""> </video>
+            </th>
+            <th>
+              <video data-master-id="master11" width="200" src="./static/videos/comparison/videograin/run_2man.mp4" autoplay="" loop="" controls="" muted=""> </video>
+            </th>
+            <th>
+              <video data-master-id="master11" width="200" src="./static/videos/comparison/videodirector/run_2man.mp4" autoplay="" loop="" controls="" muted=""> </video>
+            </th>
+          </tr>
+        </tbody>
+      </table>  
+      <th style="font-size: 15px">Edited Prompt: "<a style="color: #FFB570; font-family: caveat; font-weight: bold;">Spiderman in red-and-blue suit</a> and 
+        <a style="color: #66B2FF; font-family: caveat; font-weight: bold;">Batman in black armored suit</a> are jogging in the forest"
+      </th>
+
+      <div style="height: 20px;"></div>
+      <table style="table-layout: fixed; width: 100%;" align="center">
+        <thead>
+          <tr>
+            <th style="width: 14%; font-size: 12px; text-align: center;">Source video</th>
+            <th style="width: 14%; font-size: 12px; text-align: center;">IDAG-Edit (Ours)</th>
+            <th style="width: 14%; font-size: 12px; text-align: center;">TokenFlow</th>
+            <th style="width: 14%; font-size: 12px; text-align: center;">Ground-A-Video</th>
+            <th style="width: 14%; font-size: 12px; text-align: center;">VideoGrain</th>
+            <th style="width: 14%; font-size: 12px; text-align: center;">VideoDirector</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>
+              <video data-master-id="master11" width="200" src="./static/videos/comparison/source/2_cars.mp4" autoplay="" loop="" controls="" muted=""> </video>
+            </th>
+            <th>
+              <video data-master-id="master11" width="200" src="./static/videos/comparison/ours/2_cars.mp4" autoplay="" loop="" controls="" muted=""> </video>
+            </th>
+            <th>
+              <video data-master-id="master11" width="200" src="./static/videos/comparison/tokenflow/2_cars.mp4" autoplay="" loop="" controls="" muted=""> </video>
+            </th>
+            <th>
+              <video data-master-id="master11" width="200" src="./static/videos/comparison/gav/2_cars.mp4" autoplay="" loop="" controls="" muted=""> </video>
+            </th>
+            <th>
+              <video data-master-id="master11" width="200" src="./static/videos/comparison/videograin/2_cars.mp4" autoplay="" loop="" controls="" muted=""> </video>
+            </th>
+            <th>
+              <video data-master-id="master11" width="200" src="./static/videos/comparison/videodirector/2_cars.mp4" autoplay="" loop="" controls="" muted=""> </video>
+            </th>
+          </tr>
+        </tbody>
+      </table>
+      <th style="font-size: 15px">Edited Prompt: "A <a style="color: #FF3333; font-family: caveat; font-weight: bold;">red firetruck</a> and a 
+        <a style="color: #97D077; font-family: caveat; font-weight: bold;">yellow school bus</a> are on the highway"
+      </th>
+
+      <div style="height: 20px;"></div>
+      <table style="table-layout: fixed; width: 100%;" align="center">
+        <thead>
+          <tr>
+            <th style="width: 14%; font-size: 12px; text-align: center;">Source video</th>
+            <th style="width: 14%; font-size: 12px; text-align: center;">IDAG-Edit (Ours)</th>
+            <th style="width: 14%; font-size: 12px; text-align: center;">TokenFlow</th>
+            <th style="width: 14%; font-size: 12px; text-align: center;">Ground-A-Video</th>
+            <th style="width: 14%; font-size: 12px; text-align: center;">VideoGrain</th>
+            <th style="width: 14%; font-size: 12px; text-align: center;">VideoDirector</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>
+              <video data-master-id="master11" width="200" src="./static/videos/comparison/source/boy_basketball_bouncing.mp4" autoplay="" loop="" controls="" muted=""> </video>
+            </th>
+            <th>
+              <video data-master-id="master11" width="200" src="./static/videos/comparison/ours/boy_basketball_bouncing.mp4" autoplay="" loop="" controls="" muted=""> </video>
+            </th>
+            <th>
+              <video data-master-id="master11" width="200" src="./static/videos/comparison/tokenflow/boy_basketball_bouncing.mp4" autoplay="" loop="" controls="" muted=""> </video>
+            </th>
+            <th>
+              <video data-master-id="master11" width="200" src="./static/videos/comparison/gav/boy_basketball_bouncing.mp4" autoplay="" loop="" controls="" muted=""> </video>
+            </th>
+            <th>
+              <video data-master-id="master11" width="200" src="./static/videos/comparison/videograin/boy_basketball_bouncing.mp4" autoplay="" loop="" controls="" muted=""> </video>
+            </th>
+            <th>
+              <video data-master-id="master11" width="200" src="./static/videos/comparison/videodirector/boy_basketball_bouncing.mp4" autoplay="" loop="" controls="" muted=""> </video>
+            </th>
+          </tr>
+        </tbody>
+      </table>
+      <th style="font-size: 15px">Edited Prompt: "A <a style="color: #FFB570; font-family: caveat; font-weight: bold;">batman in dark armored suit</a> dribbles a 
+        <a style="color: #66B2FF; font-family: caveat; font-weight: bold;">soccer</a> on an outdoor court"
+      </th>
+
+      <div style="height: 20px;"></div>
+      <table style="table-layout: fixed; width: 100%;" align="center">
+        <thead>
+          <tr>
+            <th style="width: 14%; font-size: 12px; text-align: center;">Source video</th>
+            <th style="width: 14%; font-size: 12px; text-align: center;">IDAG-Edit (Ours)</th>
+            <th style="width: 14%; font-size: 12px; text-align: center;">TokenFlow</th>
+            <th style="width: 14%; font-size: 12px; text-align: center;">Ground-A-Video</th>
+            <th style="width: 14%; font-size: 12px; text-align: center;">VideoGrain</th>
+            <th style="width: 14%; font-size: 12px; text-align: center;">VideoDirector</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>
+              <video data-master-id="master11" width="200" src="./static/videos/comparison/source/women_black_dog_red_carpet.mp4" autoplay="" loop="" controls="" muted=""> </video>
+            </th>
+            <th>
+              <video data-master-id="master11" width="200" src="./static/videos/comparison/ours/women_black_dog_red_carpet.mp4" autoplay="" loop="" controls="" muted=""> </video>
+            </th>
+            <th>
+              <video data-master-id="master11" width="200" src="./static/videos/comparison/tokenflow/women_black_dog_red_carpet.mp4" autoplay="" loop="" controls="" muted=""> </video>
+            </th>
+            <th>
+              <video data-master-id="master11" width="200" src="./static/videos/comparison/gav/women_black_dog_red_carpet.mp4" autoplay="" loop="" controls="" muted=""> </video>
+            </th>
+            <th>
+              <video data-master-id="master11" width="200" src="./static/videos/comparison/videograin/women_black_dog_red_carpet.mp4" autoplay="" loop="" controls="" muted=""> </video>
+            </th>
+            <th>
+              <video data-master-id="master11" width="200" src="./static/videos/comparison/videodirector/women_black_dog_red_carpet.mp4" autoplay="" loop="" controls="" muted=""> </video>
+            </th>
+          </tr>
+        </tbody>
+      </table>
+      <th style="font-size: 15px">Edited Prompt: "<a style="color: #FF3333; font-family: caveat; font-weight: bold;">Spiderman</a> neeling on red rug with <a style="color: #97D077; font-family: caveat; font-weight: bold;">gray tabby cat</a> nearby"</th>
+      <div style="height: 15px;"></div>
+    </div>
+  </div>
+</section>
+<!-- End Qualitative Comparison -->
 
 <!-- Experiments -->
 <section class="hero">
@@ -577,9 +624,6 @@
 </section> -->
 <!-- End image carousel -->
 
-
-
-
 <!-- Youtube video -->
 <!-- <section class="hero is-small is-light">
   <div class="hero-body">
@@ -598,61 +642,39 @@
 </section> -->
 <!-- End youtube video -->
 
-
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
-            <source src="static/videos/carousel1.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
-            <source src="static/videos/carousel2.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
-            <source src="static/videos/carousel3.mp4" type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
-
 <!-- Paper poster -->
-<section class="hero is-small is-light">
+<!-- <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
       <h2 class="title">Poster</h2>
-
-      <!-- TODO: Replace with your poster PDF -->
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
+      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550"></iframe>
     </div>
-  </section>
+  </div>
+</section> -->
 <!--End paper poster -->
 
-
+<section class="section" id="Acknowledgements">
+  <div class="container is-max-desktop content">
+    <h2 class="title">Acknowledgements</h2>
+    <p>
+      This work was financially supported in part (project number:112UA10019) by the Co-creation Platform of the Industry Academia Innovation School, NYCU, under the framework of the National Key Fields Industry-University Cooperation and Skilled Personnel Training Act, 
+      from the Ministry of Education (MOE) and industry partners in Taiwan. It also supported in part by the National Science and Technology Council, Taiwan, under Grant NSTC-115-2634-FA49-011-, NSTC-114-2218-E-A49-024-, Grant NSTC-1122221-E-A49-089-MY3, Grant NSTC-115-2425-H-A49-001,
+      Grant NSTC-114-2622-E-A49-027, Grant NSTC-112-2221E-A49-092-MY3, and in part by the Higher Education Sprout Project of the National Yang Ming Chiao Tung University and the Ministry of Education (MOE), Taiwan. 
+      It is also partly supported by MediaTek Inc., Hon Hai Research Institute, and Industrial Technology Research Institute.
+    </p>
+  </div>
+</section>
 
 <!--BibTex citation -->
-  <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <div class="bibtex-header">
-        <h2 class="title">BibTeX</h2>
-        <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
-          <i class="fas fa-copy"></i>
-          <span class="copy-text">Copy</span>
-        </button>
-      </div>
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <div class="bibtex-header">
+      <h2 class="title">BibTeX</h2>
+      <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
+        <i class="fas fa-copy"></i>
+        <span class="copy-text">Copy</span>
+      </button>
+    </div>
       <!-- <pre id="bibtex-code"><code>@article{YourPaperKey2024,
   title={Your Paper Title Here},
   author={First Author and Second Author and Third Author},
@@ -660,23 +682,20 @@
   year={2024},
   url={https://your-domain.com/your-project-page}
 }</code></pre> -->
-    </div>
+  </div>
 </section>
 <!--End BibTex citation -->
 
-
-  <footer class="footer">
+<footer class="footer">
   <div class="container">
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content">
-
           <p>
             This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
             You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
             Commons Attribution-ShareAlike 4.0 International License</a>.
           </p>
-
         </div>
       </div>
     </div>
