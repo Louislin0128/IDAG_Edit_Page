@@ -418,6 +418,13 @@ code {
   content: "ied!";
 }
 
+/* Fix BibTeX alignment and line wrapping */
+#bibtex-code {
+  text-align: left;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
 /* Scroll to Top Button */
 .scroll-to-top {
   position: fixed;
